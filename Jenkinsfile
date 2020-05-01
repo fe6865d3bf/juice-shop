@@ -44,5 +44,10 @@ pipeline {
         }
       }
     }
+    stage ('push to artifact vault') {
+      steps {
+        echo 'push to vault'
+      }
+    }
 	}
 }
