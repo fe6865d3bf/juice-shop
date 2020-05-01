@@ -2,9 +2,7 @@ pipeline {
 	environment {
 		helloWorld = "Hi!"
 	}
-	agent {
-		agent any
-	}
+	agent any
 	options {
 		timeout(time: 1, unit: 'HOURS')
 	}
