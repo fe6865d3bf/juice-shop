@@ -1,7 +1,7 @@
 pipeline {
 	environment {
 		project = "https://github.com/fe6865d3bf/juice-shop.git!"
-    containerName = "Magazin sokov"
+    containerName = "magazin-sokov"
   }
 	agent any
 	options {
